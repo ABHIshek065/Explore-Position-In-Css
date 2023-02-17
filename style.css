@@ -1,0 +1,106 @@
+body {
+  background: lightcyan;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.card {
+  background-color: white;
+  width: 550px;
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  margin: 12px auto;
+  padding: 8px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.card-ad {
+  position: sticky;
+  top: 0;
+  width: 550px;
+  margin: 12px auto;
+}
+
+.ad-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.btn {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border: 1px solid lightgray;
+  border-radius: 28px;
+  margin: 34px 56px;
+  font-size: 17px;
+  padding: 16px;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+
+.card-header {
+  position: relative;
+}
+
+.tag {
+  position: absolute;
+  top: 0;
+  background-color: #fff;
+  padding: 4px 18px;
+  border-radius: 34px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.tag-likes {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 4px 18px;
+  border-radius: 34px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.hero {
+  position: relative;
+  background-color: white;
+  width: 550px;
+  border-radius: 12px;
+  margin: 12px auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.hero-content {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  margin: 24px;
+  color: white;
+}
+.desc {
+  font-size: 18px;
+}
+
+.hero-btn {
+  border: 1px solid lightgray;
+  border-radius: 28px;
+  font-size: 14px;
+  padding: 12px 20px;
+  background-color: black;
+  color: aliceblue;
+}
